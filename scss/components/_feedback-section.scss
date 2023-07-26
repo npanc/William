@@ -1,0 +1,65 @@
+.feedback-section {
+    &__content {
+        display:grid;
+        grid-template-columns: 1fr;
+        gap: 24px;
+       
+
+
+    }
+
+
+    &__input {
+        width: 1140px;
+        height: 45px;
+        color:  #9B968B;
+font-family: Rubik;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 4px;
+border: 1px solid rgba(255, 255, 255, 0.15);
+background: none;
+padding-left: 16px;
+padding-top: 14px;
+padding-bottom: 14px;
+    }
+
+    &__textarea {
+        width: 1140px;
+        height: 120px;
+        color:  #9B968B;
+font-family: Rubik;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 4px;
+border: 1px solid rgba(255, 255, 255, 0.15);
+background: none;
+padding-left: 16px;
+padding-top: 14px;
+    }
+
+    &__button {
+        
+        width: 147px;
+        color: white;
+        border-radius: 5px;
+        border: 1px solid  #ED9902;
+        background:  #ED9902;
+        padding:18px 18px;
+        margin-bottom: 90px;
+    }
+
+    &__button:hover{
+        background: none;
+        color: rgb(255, 255, 255);
+    }
+
+}
+ 
+
+  
+   

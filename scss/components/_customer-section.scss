@@ -1,0 +1,67 @@
+.customer-section {
+
+
+   
+
+
+
+   &__box1 {
+    border-radius: 8px;
+background: #2D2B29;
+width: 557px;
+   }
+
+   &__boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 26px;
+    margin-bottom: 114px;
+
+   }
+   
+   
+
+
+
+   &__content {
+    padding: 32px;
+   }
+
+    &__desc {
+    width: 493px;
+    color:  #FFF;
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+margin-bottom: 28px;
+
+
+   }
+
+   &__sign {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   }
+
+   .name {
+    color: #FFF;
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; 
+margin-bottom: 4px;
+
+   }
+   .description {
+    color:#ED9902;
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+   }
+}
